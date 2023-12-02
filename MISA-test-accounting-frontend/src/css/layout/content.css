@@ -1,0 +1,10 @@
+.content{
+    background-color: var(--ColorPrimaryTextWhite);
+    flex:1;
+    box-sizing: border-box;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+}

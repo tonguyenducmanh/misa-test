@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionString" xml:space="preserve">
+    <value>SecretConnectionString</value>
+    <comment>Tên của connection string gọi từ appsettings.json</comment>
+  </data>
+  <data name="Default_CreatedBy_User" xml:space="preserve">
+    <value>Tô Nguyễn Đức Mạnh</value>
+    <comment>Người tạo record mặc định</comment>
+  </data>
+  <data name="Default_ModifiedBy_User" xml:space="preserve">
+    <value>Liễu Thị Oanh</value>
+    <comment>Người sửa record mặc định</comment>
+  </data>
+  <data name="DevMsg_DeleteFailed" xml:space="preserve">
+    <value>Something wrong when try to delete this record</value>
+    <comment>Thông báo cho dev lỗi xóa record</comment>
+  </data>
+  <data name="DevMsg_Employee_DuplicatedCode" xml:space="preserve">
+    <value>EmployeeCode is existed, please try another code</value>
+    <comment>Thông báo cho dev mã đã bị trùng</comment>
+  </data>
+  <data name="DevMsg_Exception" xml:space="preserve">
+    <value>Sever has error when try to do this request.</value>
+    <comment>Thông báo cho dev có 1 exception</comment>
+  </data>
+  <data name="DevMsg_InsertFailed" xml:space="preserve">
+    <value>Insert record to databse failed</value>
+    <comment>Thông báo cho dev thêm mới thất bại</comment>
+  </data>
+  <data name="DevMsg_UpdatedFailed" xml:space="preserve">
+    <value>Update record to database failed</value>
+    <comment>Thông báo cho dev sửa 1 trường thất bại</comment>
+  </data>
+  <data name="DevMsg_ValidateFailed" xml:space="preserve">
+    <value>Some fileds of this request is not accepted</value>
+    <comment>Thông báo cho dev có 1 lỗi liên quan tới validate</comment>
+  </data>
+  <data name="MoreInfo_DeleteFailed" xml:space="preserve">
+    <value>https://openapi.misa.com/error-code/e009</value>
+    <comment>Trang mô tả chi tiết thông tin xóa thất bại</comment>
+  </data>
+  <data name="MoreInfo_Employee_DupplicatedCode" xml:space="preserve">
+    <value>https://openapi.misa.com/error-code/e002</value>
+    <comment>Trang mô tả chi tiết về mã trùng</comment>
+  </data>
+  <data name="MoreInfo_Exception" xml:space="preserve">
+    <value>https://openapi.misa.com/error-code/e001</value>
+    <comment>Trang mô tả chi tiết về exception</comment>
+  </data>
+  <data name="MoreInfo_InsertFailed" xml:space="preserve">
+    <value>https://openapi.misa.com/error-code/e007</value>
+    <comment>Trang mô tả chi tiết về insert thất bại</comment>
+  </data>
+  <data name="MoreInfo_UpdatedFailed" xml:space="preserve">
+    <value>https://openapi.misa.com/error-code/e008</value>
+    <comment>Trang mô tả chi tiết về lỗi sửa thất bại</comment>
+  </data>
+  <data name="MoreInfo_ValidateFailed" xml:space="preserve">
+    <value>https://openapi.misa.com/error-code/e003</value>
+    <comment>Trang mô tả chi tiết về validate dữ liệu</comment>
+  </data>
+  <data name="MyConnectionString" xml:space="preserve">
+    <value>MySQLConnectionString</value>
+    <comment>Tên connection string để kết nối tới databse</comment>
+  </data>
+  <data name="Param_ID" xml:space="preserve">
+    <value>v_id</value>
+    <comment>Param ID của record</comment>
+  </data>
+  <data name="Param_PageNumber" xml:space="preserve">
+    <value>v_PageNumber</value>
+    <comment>Param số trang trong proc</comment>
+  </data>
+  <data name="Param_PageSize" xml:space="preserve">
+    <value>v_PageSize</value>
+    <comment>Param số bản ghi 1 trang trong proc</comment>
+  </data>
+  <data name="Param_Search" xml:space="preserve">
+    <value>v_Search</value>
+    <comment>Param từ khóa tìm kiếm trong proc</comment>
+  </data>
+  <data name="ProcGetEmployeeFilter" xml:space="preserve">
+    <value>Proc_employee_GetPaging</value>
+    <comment>Tên proc lọc danh sách người dùng có điều kiện</comment>
+  </data>
+  <data name="Proc_Delete_ManyRecord" xml:space="preserve">
+    <value>Proc_{0}_DeleteManyRecord</value>
+    <comment>Tên proc xóa nhiều record trong 1 database</comment>
+  </data>
+  <data name="Proc_Delete_OneRecord" xml:space="preserve">
+    <value>Proc_{0}_DeleteOneRecord</value>
+    <comment>Tên proc xóa 1 nhân viên trong Database</comment>
+  </data>
+  <data name="Proc_ExportToExcel" xml:space="preserve">
+    <value>Proc_{0}_ExportAll</value>
+    <comment>Tên proc xuất khẩu toàn bộ record ra file excell</comment>
+  </data>
+  <data name="Proc_GetAll" xml:space="preserve">
+    <value>Proc_{0}_GetAll</value>
+    <comment>Tên proc getall tùy thuộc vào từng table trong Database</comment>
+  </data>
+  <data name="Proc_GetDupplicateCode" xml:space="preserve">
+    <value>Proc_{0}_GetDuplicateCode</value>
+    <comment>Tên proc test mã bị trùng</comment>
+  </data>
+  <data name="Proc_Get_ByID" xml:space="preserve">
+    <value>Proc_{0}_GetByID</value>
+    <comment>Tên proc lấy ra 1 nhân viên theo ID</comment>
+  </data>
+  <data name="Proc_Get_DupplicateCode" xml:space="preserve">
+    <value>Proc_{0}_GetDuplicateCode</value>
+    <comment>Tên proc test mã nhân viên bị trùng</comment>
+  </data>
+  <data name="Proc_Get_MaxCode" xml:space="preserve">
+    <value>Proc_{0}_GetMaxCode</value>
+    <comment>Tên proc lấy ra mã nhân viên lớn nhất</comment>
+  </data>
+  <data name="Proc_InsertOne" xml:space="preserve">
+    <value>Proc_{0}_PostOneRecord</value>
+    <comment>Tên proc tạo thêm 1 trường trong Database</comment>
+  </data>
+  <data name="Proc_Put_OneRecord" xml:space="preserve">
+    <value>Proc_{0}_PutOneRecord</value>
+    <comment>Tên proc sửa 1 nhân viên trong Database</comment>
+  </data>
+  <data name="UserMsg_DeleteFailed" xml:space="preserve">
+    <value>Có lỗi xảy ra khi cố gắng xóa trường này, vui lòng kiểm tra lại</value>
+    <comment>Thông báo cho người dùng lỗi xóa record</comment>
+  </data>
+  <data name="UserMsg_Employee_DuplicatedCode" xml:space="preserve">
+    <value>Mã nhân viên đã tồn tại trong hệ thống, vui lòng sử dụng mã khác</value>
+    <comment>Thông báo cho người dùng mã đã bị trùng</comment>
+  </data>
+  <data name="UserMsg_Exception" xml:space="preserve">
+    <value>Có lỗi xảy ra, vui lòng liên hệ với MISA để được hỗ trợ.</value>
+    <comment>Thồng báo có lỗi xảy ra cho người dùng</comment>
+  </data>
+  <data name="UserMsg_InsertFailed" xml:space="preserve">
+    <value>Thêm mới thất bại, vui lòng kiểm tra lại</value>
+    <comment>Thông báo cho user thêm mới thất bại</comment>
+  </data>
+  <data name="UserMsg_UpdatedFailed" xml:space="preserve">
+    <value>Sửa thất bại, vui lòng kiểm tra lại</value>
+    <comment>Thông báo cho người dùng sửa 1 trường thất bại</comment>
+  </data>
+  <data name="UserMsg_ValidateFailed" xml:space="preserve">
+    <value>Có một hoặc nhiều trường dữ liệu bị lỗi, vui lòng kiểm tra lại.</value>
+    <comment>Thông báo cho người dùng biết có lỗi liên quan tới validate</comment>
+  </data>
+</root>
