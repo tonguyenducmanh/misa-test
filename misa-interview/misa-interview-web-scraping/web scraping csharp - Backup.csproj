@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>web_scraping_csharp</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.3.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="103.0.5060.5300" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteNhamoigioi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteNoingoaithat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeletePhongthuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteWiki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteTintuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteDuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteDoanhnghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteNhadatchothue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\deleteAllDataInDbMethods\DeleteNhadatban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadDoanhnghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadNhamoigioi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadNoingoaithat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadPhongthuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadWiki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadTintuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadDuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadNhadatchothue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\loadFromDbMethods\LoadNhadatban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeAllMethods\RunChromeAllDuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeAllMethods\RunChromeAllNhadatban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeAllMethods\RunChromeAllNhadatchothue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeAllMethods\RunChromeAllNhamoigioi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeDuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeNhamoigioi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeNoingoaithat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromePhongthuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeDoanhnghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeWiki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeTintuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\runChromeMethods\RunChromeNhadatchothue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbDoanhnghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbNhamoigioi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbNoingoaithat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\saveToDbphonthuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbWiki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbTintuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbDuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbNhadatchothue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\saveToDbMethods\SaveToDbNhadatban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+
+.pagination{
+    position: relative;
+    width: 100%;
+    height: calc(var(--padding)*6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

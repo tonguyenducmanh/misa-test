@@ -1,0 +1,223 @@
+:root{
+    --icon-small: 16px;
+    --icon-medium: 20px;
+    --icon-large: 24px;
+    --padding: 10px;
+    --border: 0.5px solid rgba(120, 120, 120, 0.347);
+    --boderRadius: 4px;
+    --boxShadow: 1px 1px 3px 1px rgb(195, 195, 195);
+    --heightRow: calc(var(--padding)*4);
+    --marginRightTD: calc(var(--padding)*4);
+    --iconUnchecked: -193px -17px;
+    --iconChecked: -177px -17px;
+}
+.icon{
+    position: relative;
+    width: var(--icon-small);
+    height: var(--icon-small);
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.icon::before{
+    position: absolute;
+    content: '';
+    z-index: 1;
+    width: var(--icon-small);
+    height: var(--icon-small);
+    background-image: url(../../../../images/icon_collection.svg);
+}
+
+.iconHeading{
+    display: flex;
+    align-items: center;
+    width: 50px ;
+    height: var(--heightRow);
+}
+
+.iconHeading:hover{
+    cursor: pointer;
+}
+
+.iconHeading::after{
+    position: absolute;
+    content: '';
+    z-index: 1;
+    width: var(--icon-small);
+    height: var(--icon-small);
+    margin-left: 30px;
+    background-image: url(../../../../images/icon_collection.svg);
+    background-position: var(--iconUnchecked);
+}
+
+.iconHeadingChecked{
+    display: flex;
+    align-items: center;
+    width:50px ;
+    height: var(--heightRow);
+}
+
+.iconHeadingChecked:hover{
+    cursor: pointer;
+}
+
+.iconHeadingChecked::after{
+    position: absolute;
+    content: '';
+    z-index: 1;
+    width: var(--icon-small);
+    height: var(--icon-small);
+    margin-left: 30px;
+    background-image: url(../../../../images/icon_collection.svg);
+    background-position: var(--iconChecked);
+}
+.tableContainer{
+    position: relative;
+}
+.table{
+    position: absolute;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background-color: #f0f2f4;
+    z-index: 4;
+}
+thead tr {
+    border-top: var(--border);
+}
+tr{
+    box-sizing: border-box;
+    display: flex;
+    height: var(--heightRow);
+    border-bottom: var(--border);
+}
+
+tr:hover{
+    background-color: #e7ebfc;
+    cursor: pointer;
+}
+
+thead tr:hover{
+    background-color: #f0f2f4;
+    cursor: auto;
+
+}
+
+thead td{
+    font-weight: 600;
+    font-size: .9rem;
+}
+td{
+    white-space: nowrap;
+    margin: auto;
+    margin-left: var(--padding);
+    margin-right: var(--heightRow);
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+
+thead tr td:first-child{
+    position: sticky;
+    left: -1px;
+    padding-left: var(--padding);
+    height: calc(var(--heightRow) - 5px);
+    z-index: 3;
+    background-color: #f0f2f4;
+}
+
+.tdOne{
+    width: 150px;
+    margin-left: -15px;
+}
+
+.tdTwo{
+    width: 80px;
+}
+
+.tdThree{
+    width: 160px;
+}
+
+.tdFour{
+    width: 120px;
+}
+
+.tdFive{
+    width: 155px;
+
+}
+
+.tdSix{
+    width: 155px;
+}
+
+.tdSeven{
+    width: 170px;
+}
+
+.tdEight{
+    width: 170px;
+}
+
+.tdNine{
+    width: 170px;
+}
+
+.tdTen{
+    width: 120px;
+}
+
+.tdEleven{
+    width: 170px;
+}
+
+.tdTwelve{
+    width: 130px;
+}
+
+.tdThirteen{
+    width: 130px;
+}
+
+.tdFourteen{
+    width: 130px;
+}
+
+.tdFifteen{
+    width: 130px;
+}
+
+.tdSixteen{
+    width: 130px;
+}
+
+.tdSeventeen{
+    width: 130px;
+}
+
+.tdEighteen{
+    width: 130px;
+}
+
+.tdNineteen{
+    width: 130px;
+}
+
+.tdTwenty{
+    width: 130px;
+}
+
+.tdTwentyOne{
+    width: 100px;
+}
+
+.tdTwentyTwo{
+    width: 120px;
+}
